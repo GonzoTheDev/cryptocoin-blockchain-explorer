@@ -1,8 +1,8 @@
-## Swap Block Explorers (version 3):
-1. https://explorer.xwp.one
-2. https://explorer.test.xwp.one/
+## Crypto Block Explorers (version 3):
+1. https://explorer.crypt-o-coin.cash
+2. https://explorer.test.crypt-o-coin.cash/
 
-## **Compiling swap daemon on Ubuntu 18.04**
+## **Compiling Crypto daemon on Ubuntu 18.04**
 
 ``sudo apt update``
 
@@ -10,29 +10,29 @@
 
 ``cd ~``
 
-``git clone --recursive https://github.com/swap-dev/swap``
+``git clone --recursive https://github.com/GonzoTheDev/crypto.git``
 
-``cd swap``
+``cd crypto``
 
 ``USE_SINGLE_BUILDDIR=1 make -j<number of threads>``
 
-The binaries compiled at ``~/swap/build/release/bin/``
+The binaries compiled at ``~/crypto/build/release/bin/``
 
-Run and sync the Daemon with ``./swapd``
+Run and sync the Daemon with ``./cryptocoind``
 
 ***
 
-## Compile and run the swapblocks
+## Compile and run the cryptoblocks
 
     cd ~
-    git clone https://github.com/swap-dev/swap-blockchain-explorer swapblock
-    cd swapblock
+    git clone https://github.com/GonzoTheDev/cryptocoin-blockchain-explorer.git cryptoblock
+    cd cryptoblock
     mkdir build && cd build
     cmake ..
     make -j<number of threads>
     
     # run the explorer:
-    ./swapblocks -x 127.0.0.1 --testnet-url https://explorer.test.xwp.one --enable-emission-monitor --enable-autorefresh 
+    ./cryptoblocks -x 127.0.0.1 --testnet-url https://explorer.test.crypt-o-coin.cash --enable-emission-monitor --enable-autorefresh 
     
     optional --enable-json-api --enable-pusher
     

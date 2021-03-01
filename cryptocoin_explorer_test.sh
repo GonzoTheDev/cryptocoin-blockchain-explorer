@@ -1,0 +1,1 @@
+./cryptoblocks -x 127.0.0.1 -t --mainnet-url https://explorer.crypt-o-coin.cash -d http://127.0.0.1:22223 -p 8086 -b ~/.cryptocoin/testnet/lmdb --enable-emission-monitor --enable-autorefresh-option --enable-json-api --enable-pusher

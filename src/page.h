@@ -1909,7 +1909,7 @@ show_my_outputs(string tx_hash_str,
 
     if (xmr_address_str.empty())
     {
-        return string("Swap address not provided!");
+        return string("Crypto address not provided!");
     }
 
     if (viewkey_str.empty())
@@ -5241,7 +5241,7 @@ json_outputs(string tx_hash_str,
     if (address_str.empty())
     {
         j_response["status"]  = "error";
-        j_response["message"] = "Swap address not provided";
+        j_response["message"] = "Crypto address not provided";
         return j_response;
     }
 
@@ -5278,7 +5278,7 @@ json_outputs(string tx_hash_str,
     if (!xmreg::parse_str_address(address_str,  address_info, nettype))
     {
         j_response["status"]  = "error";
-        j_response["message"] = "Cant parse Swap address: " + address_str;
+        j_response["message"] = "Cant parse Crypto address: " + address_str;
         return j_response;
 
     }
@@ -5466,7 +5466,7 @@ json_outputsblocks(string _limit,
     if (address_str.empty())
     {
         j_response["status"]  = "error";
-        j_response["message"] = "Swap address not provided";
+        j_response["message"] = "Crypto address not provided";
         return j_response;
     }
 
@@ -5483,7 +5483,7 @@ json_outputsblocks(string _limit,
     if (!xmreg::parse_str_address(address_str, address_info, nettype))
     {
         j_response["status"]  = "error";
-        j_response["message"] = "Cant parse Swap address: " + address_str;
+        j_response["message"] = "Cant parse Crypto address: " + address_str;
         return j_response;
 
     }
@@ -5632,7 +5632,7 @@ json_networkinfo()
     if (!get_monero_network_info(j_info))
     {
         j_response["status"]  = "error";
-        j_response["message"] = "Cant get Swap network info";
+        j_response["message"] = "Cant get Crypto network info";
         return j_response;
     }
 
