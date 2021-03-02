@@ -32,7 +32,7 @@ if (NOT MONERO_BUILD_DIR)
    if (NOT EXISTS ${MONERO_BUILD_DIR})   
         # try different location   
         message(STATUS "Trying different folder for monero libraries")
-        set(MONERO_BUILD_DIR ${MONERO_SOURCE_DIR}/build/bin/
+        set(MONERO_BUILD_DIR ${MONERO_SOURCE_DIR}/build/release/
             CACHE PATH "Path to the build directory for Monero" FORCE)
     endif()
 
