@@ -1,16 +1,16 @@
 body {
     margin: 20px;
     padding: 0;
-    color: #a3acde;
-    background-color:#151933;
+    color: #5bbe90;
+    background-color:#333335;
     font-family: Sans-Serif;
 	font-weight: 100;
 }
 
 textarea {
     color: #fff;
-    background-color:#151933;
-    border: 2px solid #a3acde;
+    background-color:#333335;
+    border: 2px solid #5bbe90;
     border-radius: 0.25rem;
 }
 
@@ -46,19 +46,19 @@ td {
 
 a:link {
     text-decoration: none;
-    color: #a3acde;
+    color: #5bbe90;
     font-weight: 800;
 }
 
 a:visited {
     text-decoration: none;
-    color: #a3acde;
+    color: #5bbe90;
     font-weight: 800;
 }
 
 a:active {
     text-decoration: none;
-    color: #a3acde;
+    color: #5bbe90;
     font-weight: 800;
 }
 
@@ -74,15 +74,15 @@ form {
 
 .style-1 input[type="text"] {
     padding: 2px;
-    background-color:#151933;
-    border:2px solid #a3acde;
+    background-color:#333335;
+    border:2px solid #5bbe90;
     border-radius: 0.25rem;
     color:white;
 }
 
 .style-1 input[type="text"]:focus,
 .style-1 input[type="text"].focus {
-    border:2px solid #a3acde;
+    border:2px solid #5bbe90;
     border-radius: 0.25rem;
     color:white;
 }
@@ -91,8 +91,8 @@ form {
     padding: 0.55rem .5rem;
     font-size: 1rem;
     line-height: 1.5;
-    background-color:#151933;
-    border:2px solid #a3acde;
+    background-color:#333335;
+    border:2px solid #5bbe90;
     border-radius: 0.25rem;
     color:white;
     vertical-align: middle;
@@ -101,7 +101,7 @@ form {
 
 .search input[type="text"]:focus,
 .search input[type="text"].focus {
-    border:2px solid #a3acde;
+    border:2px solid #5bbe90;
     border-radius: 0.25rem;
     color:white;
 }
@@ -125,20 +125,20 @@ form {
     -o-transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
     transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
     transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out, -webkit-box-shadow 0.15s ease-in-out;
-    border: 2px solid #6d70ff;
+    border: 2px solid #148d4a;
     border-radius: 0.25rem;
     z-index: 2;
     background-color: transparent;
     background-image: none;
-    color: #a3acde;
+    color: #5bbe90;
     margin: .5rem;
 }
 
 .style-1 input[type="submit"]:hover,
 .style-1 input[type="submit"].focus {
     color: #fff;
-    background-color: #6d70ff;
-    border-color: #6d70ff;
+    background-color: #148d4a;
+    border-color: #148d4a;
     cursor: pointer;
 }
 
@@ -172,19 +172,19 @@ form {
     -o-transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
     transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
     transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out, -webkit-box-shadow 0.15s ease-in-out;
-    border: 2px solid #a3acde;
+    border: 2px solid #5bbe90;
     border-radius: 0.25rem;
     z-index: 2;
     background-color: transparent;
     background-image: none;
-    color: #a3acde;
+    color: #5bbe90;
     margin: 0 .5rem 0 0;
 }
 
 .tab label:hover {
     color: #fff;
-    background-color: #a3acde;
-    border-color: #a3acde;
+    background-color: #5bbe90;
+    border-color: #5bbe90;
 }
 
 .tab [type=radio] {
@@ -195,11 +195,11 @@ form {
     position: absolute;
     top: 40px;
     left: 0;
-    background: #151933;
+    background: #333335;
     right: 0;
     bottom: -20px;
     padding: 20px;
-    border: 2px solid #a3acde;
+    border: 2px solid #5bbe90;
     border-radius: 0.25rem;
 }
 
@@ -222,10 +222,10 @@ form {
     -o-transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
     transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
     transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out, -webkit-box-shadow 0.15s ease-in-out;
-    border: 2px solid #a3acde;
+    border: 2px solid #5bbe90;
     border-radius: 0.25rem;
     z-index: 2;
-    background-color: #a3acde;
+    background-color: #5bbe90;
     background-image: none;
     color: #fff;
     margin: 0 .5rem 0 0;
@@ -233,8 +233,8 @@ form {
 
 [type=radio]:checked ~ label:hover {
     color: #fff;
-    background-color: #a3acde;
-    border-color: #a3acde;
+    background-color: #5bbe90;
+    border-color: #5bbe90;
 }
 
 [type=radio]:checked ~ label ~ .content {
@@ -254,7 +254,7 @@ label#show-decoded-inputs {
     /*margin: 60px 0 10px 0;*/
     cursor: pointer;
     background-color: transparent;
-    color: #a3acde;
+    color: #5bbe90;
     width: 100%;
     text-align: center;
     font-weight: 600;
